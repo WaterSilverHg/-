@@ -1,3 +1,50 @@
+# Exclude all object files
+*.obj
+
+# Exclude executable files
+*.exe
+
+# Exclude PDB files
+*.pdb
+
+# Exclude IDB files
+*.idb
+
+# Exclude intermediate directories
 x64/
-x86/
+Debug/
+Release/
+
+# Exclude Visual Studio log files
+*.log
+
+# Exclude Visual Studio intermediate files
+*.ilk
+*.sbr
+*.suo
+*.sdf
+*.slnf
+*.opensdf
+*.sln.xpm
+*.suo.user
+*.suo.machine
+*.suo.v12.*.suo
+*.suo.v13.*.suo
+*.suo.v14.*.suo
+*.suo.v15.*.suo
+*.suo.v16.*.suo
+
+# Exclude tlog files
+*.tlog/*
+
+# Exclude recipe files
+*.recipe
+
+# Exclude lastbuildstate files
+*.lastbuildstate
+
+# Exclude Visual Studio user files
+*.user
+
+# Exclude Visual Studio cache files
 .vs/
