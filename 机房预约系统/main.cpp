@@ -27,7 +27,6 @@ int main()
 			break;
 		case 0:
 			cout << "感谢您的使用" << endl;
-			system("pause");
 			exit(0);
 		}
 		system("cls");
